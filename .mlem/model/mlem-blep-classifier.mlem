@@ -1,0 +1,33 @@
+artifacts:
+  data.pkl:
+    hash: d99134c1f66e496b84dff76e16f956ac
+    size: 324
+    uri: mlem-blep-classifier
+description: "- \U0001F4D6 Classifies images as `mlem` or `blep`\n- \U0001F4E6 Pytorch\
+  \ 1.10.0\n- \U0001F3AF Accuracy 50%"
+model_type:
+  io:
+    type: pickle
+  methods:
+    __call__:
+      args:
+      - name: data
+        type_:
+          ptype: NoneType
+          type: primitive
+      name: mlem_blep_classifier
+      returns:
+        ptype: str
+        type: primitive
+    predict:
+      args:
+      - name: data
+        type_:
+          ptype: NoneType
+          type: primitive
+      name: predict
+      returns:
+        ptype: str
+        type: primitive
+  type: callable
+object_type: model

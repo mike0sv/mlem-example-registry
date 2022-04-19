@@ -1,0 +1,33 @@
+artifacts:
+  data.pkl:
+    hash: c08930bc968a1780f84d2ab9b9f49ece
+    size: 253
+    uri: pet-face-recognition
+description: "- \U0001F4D6 Tries to recognize pet face on a photo\n- \U0001F4E6 Pytorch\
+  \ 1.10.0\n- \U0001F3AF Accuracy 100%"
+model_type:
+  io:
+    type: pickle
+  methods:
+    __call__:
+      args:
+      - name: data
+        type_:
+          ptype: NoneType
+          type: primitive
+      name: pet_face_recognition
+      returns:
+        ptype: str
+        type: primitive
+    predict:
+      args:
+      - name: data
+        type_:
+          ptype: NoneType
+          type: primitive
+      name: predict
+      returns:
+        ptype: str
+        type: primitive
+  type: callable
+object_type: model
