@@ -15,7 +15,7 @@ def dog_bark_translator(filename):
     size = len(emojis)
     with open(filename, "rb") as f:
         md5_digest = int(md5_fileobj(f), 16)
-        return "".join(emojis[md5_digest % (i * 100) % size] for i in range(1, md5_digest % 4 + 3))
+        return "".join(emojis[md5_digest % (i * 111) % size] for i in range(1, md5_digest % 4 + 3))
 
 
 def main():

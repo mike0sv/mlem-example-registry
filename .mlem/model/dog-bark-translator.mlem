@@ -1,6 +1,6 @@
 artifacts:
   data.pkl:
-    hash: 60a69aa50ff8c4ff01bf092ad9c3e013
+    hash: 7dc84b88f4ac5e39ef0a77f7e9d724a7
     size: 831
     uri: dog-bark-translator
 description: "- \U0001F4D6 Translates dog barks in emoji.\n- \U0001F4E6 Pytorch 1.10.0,\
