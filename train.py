@@ -19,6 +19,7 @@ def dog_bark_translator(filename):
 
 
 def main():
+    """https://imgur.com/r/ProgrammerHumor/UkpWru4"""
     init()
     save(dog_bark_translator, "dog-bark-translator", tmp_sample_data="train.py", description="""- 📖 Translates dog barks in emoji.
 - 📦 Pytorch 1.10.0, Torchaudio 0.10.0, Emoji 1.6.1
